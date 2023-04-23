@@ -36,10 +36,10 @@ function go() {
     inputWord +
     " has " +
     consonant +
-    " consonant" +
+    " consonants" +
     "  and " +
     vowel +
-    " vowel";
+    " vowels";
 }
 // console.log(
 //   inputWord + " has " + consonant + " consonant" + "  and " + vowel + " vowel"
