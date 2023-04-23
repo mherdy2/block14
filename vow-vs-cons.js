@@ -6,7 +6,7 @@ function go() {
   //check input string for vowels and consonants
   // count the number of vowels and consonants in a input string
   // return the number of vowels and consonants in a input string
-  // const inputWord = "the quick brown fox jumps over the lazy dog";
+  // const inputWord = "hello";
   const vowelArray = "aeiou",
     consonantArray = "bcdfghjklmnpqrstvwxyz";
   var vowel = [],
