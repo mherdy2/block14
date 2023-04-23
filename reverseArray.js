@@ -1,7 +1,8 @@
 //this is a function that reverses the order of an array
 //and prints the reversed array.
-const array1 = [1, -1, 2, -3, 5, -8, 13];
+const inputArrays = [1, 3, 5, 7, 9, 11];
 // input array
-for (let i = array1.length; i >= 1; i--) {
-  console.log(array1[i - 1]);
+//using for loop function to reverse the order of an array
+for (let i = inputArrays.length; i >= 1; i--) {
+  console.log(inputArrays[i - 1]);
 }
