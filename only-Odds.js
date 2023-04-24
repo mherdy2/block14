@@ -8,7 +8,7 @@ const num = [2, 4, 6, 8, 10, 11, 12];
 // for loop function that will iterate through the array
 for (let i = 0; i < num.length; i++) {
   if (num[i] % 2 === 1) {
-    // using push() method to push the number into the oddnumbers array
+    // using push() method to push the number into the oddNumbers array
     oddNumbers.push(num[i]);
   }
 }
