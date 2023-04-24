@@ -1,12 +1,9 @@
+// count the number of vowels and consonants in a input string
+// use arrays, loops and else/if statements
+//check input string for vowels and consonants
+// count the number of vowels and consonants in a input string
 function go() {
   const inputWord = document.getElementById("text").value;
-  // vowel and consonants
-  // count the number of vowels and consonants in a input string
-  // use arrays, loops and else/if statements
-  //check input string for vowels and consonants
-  // count the number of vowels and consonants in a input string
-  // return the number of vowels and consonants in a input string
-  // const inputWord = "the quick brown fox jumps over the lazy dog";
   const vowelArray = "AEIOUaeiou";
   var vowel = [],
     consonant = [];
