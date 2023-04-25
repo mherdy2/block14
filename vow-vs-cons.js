@@ -6,7 +6,7 @@ function go() {
   let inputWord = document.getElementById("text").value;
   inputWord = inputWord.toUpperCase();
   const vowelArray = "AEIOU";
-  // sto
+  // storage the number of vowels an
   var vowel = [],
     consonant = [];
   //  this loop function will count the number of vowels
