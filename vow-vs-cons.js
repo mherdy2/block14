@@ -3,8 +3,9 @@
 //check input string for vowels and consonants
 // count the number of vowels and consonants in a input string
 function go() {
-  const inputWord = document.getElementById("text").value;
-  const vowelArray = "AEIOUaeiou";
+  let inputWord = document.getElementById("text").value;
+  inputWord = inputWord.toUpperCase();
+  const vowelArray = "AEIOU";
   var vowel = [],
     consonant = [];
   //  this loop function will count the number of vowels
